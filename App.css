@@ -1,0 +1,129 @@
+
+*{
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+
+.control{
+  width: 20% !important;
+  border: 2px solid black;
+}
+.control1{
+  width: 60% !important;
+}
+.Nav{
+  width: 100% !important;
+  
+}
+.Drop{
+  color: black !important ;
+}
+.fea{
+ color: black  !important;
+ transition: 0.5s ease;
+}
+.fea:hover{
+  color: #00a49f !important;
+}
+.Second{
+  
+  background-color: #ebeeef;
+  height: 420px;
+
+}
+.card{
+  margin-top: 20px;
+  border: 2px solid black;
+  width: 20%;
+  overflow: hidden;
+  margin-left: 20px;
+
+}
+.card_img{
+  height: 200px;
+  
+  
+}
+.card_img img{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+ height: 100%;
+ width: 100%;
+}
+.card_price{
+  color:black ;
+  margin-left: 10px;
+}  
+.card_info{
+  color:gray ;
+  margin-left: 10px;
+}
+.Grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+.Grid > div{
+  flex-basis: calc(25% - 40px);
+}
+.card_price span{
+  font-size: 2rem;
+}
+.fa-heart-o{
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  color: white;
+  font-size: 2rem;
+}
+.third{
+  
+  padding-bottom: 200px;
+}
+.foot1{
+  width: 100%;
+  height: auto;
+  background-color: #ebeeef;
+}
+
+.Gridd{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: first baseline;
+  padding-left: 10px;
+  
+}
+li{
+  color:  rgba(0,47,52,.64);
+
+  list-style: none;
+  font-size: 15px;
+  transition: 0.7s ease;
+}
+li:hover{
+  color: #002f34;
+}
+.Griddd{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  margin-right:20px ;
+ 
+  
+}
+.fa{
+  padding-left: 18px;
+}
+.row{
+  padding-top: 20px;
+}
+.foot2{
+  width: 100%;
+  background-color: #002f34;
+  height: 60px;
+}
+span{
+  color: white;
+}
